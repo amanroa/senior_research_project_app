@@ -1,0 +1,551 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+
+    <ScrollView
+        android:id="@+id/scrollView2"
+        android:layout_width="355dp"
+        android:layout_height="695dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.49"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Choose An Object:"
+                android:textSize="30sp" />
+
+            <TextView
+                android:id="@+id/large_household_appliances"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Large Household Appliances:"
+                android:textSize="20sp"></TextView>
+
+            <Button
+                android:id="@+id/refrigerator"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Refrigerator"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.164"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.19" />
+
+
+            <Button
+                android:id="@+id/freezer"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Freezer"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.829"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.19" />
+
+            <Button
+                android:id="@+id/washing_machine"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Washing Machine"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.829"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.19" />
+
+            <Button
+                android:id="@+id/dryer"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Dryer"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.829"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.19" />
+
+            <Button
+                android:id="@+id/dishwasher"
+                android:layout_width="124dp"
+                android:layout_height="wrap_content"
+                android:text="Dishwasher" />
+
+            <Button
+                android:id="@+id/kitchen_stove"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Kitchen Stove" />
+
+            <Button
+                android:id="@+id/air_conditioner"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Air Conditioner" />
+
+            <Button
+                android:id="@+id/microwave"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Microwave" />
+
+            <Button
+                android:id="@+id/dehumidifier"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Dehumidifier" />
+
+            <TextView
+                android:id="@+id/small"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Small Household Appliances:"
+                android:textSize="20sp" />
+
+            <Button
+                android:id="@+id/robot_vacuum"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Robot Vacuum" />
+
+            <Button
+                android:id="@+id/stick_vacuum"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Stick Vacuum" />
+
+            <Button
+                android:id="@+id/uc_vacuum"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Upright/Canister Vacuum" />
+
+            <Button
+                android:id="@+id/fan"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Fan" />
+
+            <TextView
+                android:id="@+id/it"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="IT and Telecommunications Equipment:"
+                android:textSize="20sp" />
+
+            <Button
+                android:id="@+id/landline"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Telephone (landline)" />
+
+            <Button
+                android:id="@+id/mobile"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Mobile Phone" />
+
+            <Button
+                android:id="@+id/desktop"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Desktop" />
+
+            <Button
+                android:id="@+id/laptop"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Laptop" />
+
+            <Button
+                android:id="@+id/printer"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Printer" />
+
+            <Button
+                android:id="@+id/scanner"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Scanner" />
+
+            <Button
+                android:id="@+id/photocopier"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Photocopier" />
+
+            <Button
+                android:id="@+id/fax"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Fax Machine" />
+
+            <Button
+                android:id="@+id/mouse"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Computer Mouse" />
+
+            <Button
+                android:id="@+id/tablet"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Tablet" />
+
+            <Button
+                android:id="@+id/monitor"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Monitor" />
+
+            <Button
+                android:id="@+id/watch"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="iWatch" />
+
+            <Button
+                android:id="@+id/external_hd"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="External Hard Drive" />
+
+            <Button
+                android:id="@+id/router"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Router" />
+
+            <Button
+                android:id="@+id/switches"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Switches" />
+
+            <Button
+                android:id="@+id/hub"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Hubs" />
+
+            <Button
+                android:id="@+id/racks"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Racks" />
+
+            <Button
+                android:id="@+id/server"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Servers" />
+
+            <TextView
+                android:id="@+id/ce"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Consumer Equipment:"
+                android:textSize="20sp" />
+
+            <Button
+                android:id="@+id/plasma"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Plasma Flat Panel TV" />
+
+            <Button
+                android:id="@+id/led_tv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="LED Flat Panel TV" />
+
+            <Button
+                android:id="@+id/lcd"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="LCD Flat Panel TV" />
+
+            <Button
+                android:id="@+id/portable"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Portable TV" />
+
+            <Button
+                android:id="@+id/tube"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Tube TV" />
+
+            <Button
+                android:id="@+id/speaker"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Speaker System" />
+
+            <Button
+                android:id="@+id/pc_speaker"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="PC Speakers" />
+
+            <Button
+                android:id="@+id/stereo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Stereo Equipment" />
+
+            <Button
+                android:id="@+id/dvd_cd"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="DVD/CD Player" />
+
+            <Button
+                android:id="@+id/mp3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="MP3 Player" />
+
+            <Button
+                android:id="@+id/alarm"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Alarm Clock" />
+
+            <Button
+                android:id="@+id/charger"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Charger" />
+
+            <TextView
+                android:id="@+id/light"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Lighting Equipment:"
+                android:textSize="20sp" />
+
+            <Button
+                android:id="@+id/cfl"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="CFL Lightbulb" />
+
+            <Button
+                android:id="@+id/fluorescent"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Fluorescent Lightbulb" />
+
+            <Button
+                android:id="@+id/led_light"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="LED Lightbulb" />
+
+            <TextView
+                android:id="@+id/toys"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Toys, Leisure, and Sports Equipment:"
+                android:textSize="20sp" />
+
+            <Button
+                android:id="@+id/video_game_console"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Video Game Console" />
+
+            <Button
+                android:id="@+id/games"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Games" />
+
+            <Button
+                android:id="@+id/portable_lcd"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Portable LCD" />
+
+            <Button
+                android:id="@+id/portable_gaming"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Portable Gaming" />
+
+            <Button
+                android:id="@+id/keyboard"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Keyboard" />
+
+            <Button
+                android:id="@+id/controller"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Controller" />
+
+            <TextView
+                android:id="@+id/monitoring"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Monitoring and Control Instruments:"
+                android:textSize="20sp" />
+
+            <Button
+                android:id="@+id/set_top_box"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Set Top Box" />
+
+            <Button
+                android:id="@+id/in_dash"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="In-Dash GPS" />
+
+            <Button
+                android:id="@+id/portable_gps"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Portable GPS" />
+
+            <Button
+                android:id="@+id/outdoor"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Outdoor GPS" />
+
+            <Button
+                android:id="@+id/security"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Security System" />
+
+            <TextView
+                android:id="@+id/ink_title"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Ink And Toner Cartridges:"
+                android:textSize="20sp" />
+
+            <Button
+                android:id="@+id/ink_cartridge"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Ink and Toner Cartridge" />
+
+            <TextView
+                android:id="@+id/batteries_title"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Batteries (Battery Terminals Must Be Taped):"
+                android:textSize="20sp" />
+
+            <Button
+                android:id="@+id/car_battery"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Car Battery" />
+
+            <Button
+                android:id="@+id/button_battery"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Button Battery" />
+
+
+            <Button
+                android:id="@+id/rechargeable_battery"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Rechargeable Battery"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.497"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.316" />
+
+            <Button
+                android:id="@+id/household_battery"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Household Battery (AA, AAA, D, C)" />
+
+            <Button
+                android:id="@+id/acid"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Battery Acid" />
+
+            <TextView
+                android:id="@+id/camera_title"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Cameras:"
+                android:textSize="20sp" />
+
+            <Button
+                android:id="@+id/camcorder"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Camcorder" />
+
+            <Button
+                android:id="@+id/memory_card"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Memory Card" />
+
+            <Button
+                android:id="@+id/dig_camera"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Digital Camera" />
+
+            <Button
+                android:id="@+id/lens"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Lens" />
+
+            <Button
+                android:id="@+id/dig_frame"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Digital Photo Frame" />
+
+            <Button
+                android:id="@+id/slr"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="SLR Camera" />
+
+        </LinearLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
